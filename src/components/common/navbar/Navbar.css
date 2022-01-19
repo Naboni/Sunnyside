@@ -1,0 +1,70 @@
+.navbar-container {
+  display: flex;
+  padding: 2rem 0;
+  background-color: rgb(62, 191, 255);
+}
+
+.navbar-logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  text-decoration: none;
+  padding: 0 2rem;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+}
+
+.navbar-menu-item {
+  text-decoration: none;
+  color: white;
+  padding-left: 2rem;
+}
+
+.contact-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem / 1.5rem;
+  display: inline;
+  font-family: "Fraunces", serif;
+  font-size: 0.8rem;
+}
+
+.contact-button:hover {
+  background-color: #fff;
+  color: hsl(212, 27%, 19%);
+}
+
+.navbar-content .hamburger-link {
+  display: none;
+  margin-right: 1.5rem;
+}
+
+.navbar-content #hidden {
+  display: flex;
+}
+
+.spacer {
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 22px 20px 0;
+  border-color: transparent #fffbf8 transparent transparent;
+  right: 0px;
+  top: -20px;
+}

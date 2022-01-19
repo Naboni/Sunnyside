@@ -1,0 +1,40 @@
+.footer-container {
+  background-color: #9edbcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.logo {
+  padding-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.footer-link {
+  padding: 0rem 1.5rem;
+  text-decoration: none;
+  color: #25564b;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+}
+
+.social-icon {
+  fill: #25564b;
+  padding: 0rem 1rem;
+}
+
+.social-icon:hover {
+  fill: #fff;
+}
