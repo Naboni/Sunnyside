@@ -14,7 +14,7 @@ export default function Navbar() {
                 <div className='navbar-content'>
                     <div className='navbar-menu' id={isMobile ? "hidden" : ""}>
                         <div className='navbar-menu-items'>
-                            <div className='shape'></div>
+                            <div className='clip-triangle'></div>
                             <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>About</a>
                             <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>Services</a>
                             <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>Projects</a>
