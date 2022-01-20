@@ -43,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Naboni Abebe](https://www.your-site.com)
+- Website - [Naboni Abebe](https://portfolio-ten-dusky-48.vercel.app/)
 - Frontend Mentor - [@Naboni](https://www.frontendmentor.io/profile/Naboni)
 - Twitter - [@Naboni6](https://www.twitter.com/Naboni6)
