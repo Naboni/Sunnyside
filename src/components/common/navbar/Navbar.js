@@ -14,18 +14,18 @@ export default function Navbar() {
                 <div className='navbar-content'>
                     <div className='navbar-menu' id={isMobile ? "hidden" : ""}>
                         <div className='navbar-menu-items'>
-                            <div className='spacer'></div>
-                            <a href="#" className='navbar-menu-item'>About</a>
-                            <a href="#" className='navbar-menu-item'>Services</a>
-                            <a href="#" className='navbar-menu-item'>Projects</a>
-                            <a href="#" className='navbar-menu-item'>
+                            <div className='shape'></div>
+                            <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>About</a>
+                            <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>Services</a>
+                            <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>Projects</a>
+                            <a href="#" className='navbar-menu-item' onClick={() => setIsMobile(!isMobile)}>
                                 <div className='contact-button'>
                                     CONTACT
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <a href="#" className='hamburger-link'>
+                    <a href="#" className='hamburger-link' onClick={() => setIsMobile(!isMobile)}>
                         <img src={HamburgerIcon} alt=""></img>
                     </a>
                 </div>
