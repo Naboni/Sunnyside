@@ -35,9 +35,9 @@ export default function About() {
             </div>
             <div className='image-holder cup-img'></div>
         </div>
-        <div className='about'>
+        <div className='image-container'>
             <div className='graphics-section'>
-                <div className='section-holder'>
+                <div className='section-holder text-cyan-1'>
                     <div className='about-title'>Graphic Design</div>
                     <div className='about-body'>
                         Great design makes you memorable. We deliver
@@ -48,7 +48,7 @@ export default function About() {
 
             </div>
             <div className='photography-section'>
-                <div className='section-holder'>
+                <div className='section-holder text-dark-blue'>
                     <div className='about-title'>Photography</div>
                     <div className='about-body'>
                         Increase your credibility by getting the most

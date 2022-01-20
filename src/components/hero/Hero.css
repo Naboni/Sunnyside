@@ -23,3 +23,35 @@
 .hero-down-arrow {
   padding-top: 4rem;
 }
+
+@media (max-width: 991.98px) {
+  .hero {
+    background-image: url("../../assets/images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+  }
+
+  .hero-down-arrow {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    background-image: url("../../assets/images/mobile/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .hero-title {
+    font-size: 2.3rem;
+  }
+}
