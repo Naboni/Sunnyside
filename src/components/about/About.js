@@ -1,36 +1,39 @@
 import React from 'react';
+import './About.css'
 
-export default function Services() {
+export default function About() {
     return (<>
-        <div>
-            <div>
-                <div>
-                    <div>Transform your brand</div>
+        <div className='services'>
+            <div className='services-container'>
+                <div className='text-holder'>
+                    <div className='service-title'>
+                        <div>Transform your brand</div>
+                    </div>
+                    <div className='service-body'>
+                        We are full-service creative agency specializing in helping
+                        brands grow fast. Engage your clients through compelling visuals
+                        that do most of the marketing for you.
+                    </div>
+                    <a href="#" className='transform-button'>LEARN MORE</a>
                 </div>
-                <div>
-                    We are full-service creative agency specializing in helping
-                    brands grow fast. Engage your clients through compelling visuals
-                    that do most of the marketing for you.
-                </div>
-                <a href="#">LEARN MORE</a>
             </div>
+            <div className='image-holder egg-img'></div>
         </div>
-        <div></div>
-        <div>
-            <div>
-                <div>
-                    <div>
+        <div className='services reverse'>
+            <div className='services-container'>
+                <div className='text-holder'>
+                    <div className='service-title'>
                         Stand out to the right audience
                     </div>
-                    <div>
+                    <div className='service-body'>
                         Using a collaborative formula of designers, researchers,
                         photographers, videographers, and copywriters, we'll
                         build and extend your brand in digital places
                     </div>
-                    <a href="#">LEARN MORE</a>
+                    <a href="#" className='standout-button'>LEARN MORE</a>
                 </div>
             </div>
-            <div></div>
+            <div className='image-holder cup-img'></div>
         </div>
         <div >
             <div >

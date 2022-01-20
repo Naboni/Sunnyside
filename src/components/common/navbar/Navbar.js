@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     return (
         <>
-            <div className='navbar-container'>
+            <div className='navbar'>
                 <div className='navbar-logo'>
                     <a href="#" className='logo'><Logo fill="white" /></a>
                 </div>

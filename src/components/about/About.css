@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  display: flex;
+  height: 600px;
+}
+
+.services-container {
+  flex: 1;
+  background-color: #fffbf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-holder {
+  padding: 18% 22%;
+}
+
+.service-title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: hsl(212, 27%, 19%);
+}
+
+.service-body {
+  color: hsl(232, 10%, 55%);
+  padding: 2rem 0;
+  line-height: 1.7rem;
+}
+
+.transform-button {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%) !important;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.transform-button::after {
+  position: absolute;
+  content: "";
+  height: 9px;
+  bottom: -2px;
+  margin: 0 auto;
+  left: -5px;
+  right: 0;
+  width: 108%;
+  background: rgb(255, 233, 146);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 2rem;
+}
+
+.transform-button:hover::after {
+  background: hsl(51, 100%, 49%);
+}
+
+.standout-button {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%) !important;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.standout-button::after {
+  position: absolute;
+  content: "";
+  height: 9px;
+  bottom: -2px;
+  margin: 0 auto;
+  left: -5px;
+  right: 0;
+  width: 108%;
+  background: hsl(7, 100%, 89%);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 2rem;
+}
+
+.standout-button:hover::after {
+  background: hsl(7, 99%, 70%);
+}
+
+.image-holder {
+  flex: 1;
+}
+
+.egg-img {
+  background-image: url("../../assets/images/desktop/image-transform.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cup-img {
+  background-image: url("../../assets/images/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

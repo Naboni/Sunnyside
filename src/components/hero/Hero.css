@@ -1,0 +1,25 @@
+.hero {
+  height: 80vh;
+  background-image: url("../../assets/images/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.hero-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 0.8rem;
+}
+
+.hero-down-arrow {
+  padding-top: 3rem;
+}
