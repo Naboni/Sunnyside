@@ -34,16 +34,17 @@
 }
 
 .contact-button {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #fff;
   padding: 1rem 1.5rem;
   border-radius: 1.5rem / 1.5rem;
   display: inline;
   font-family: "Fraunces", serif;
   font-size: 0.8rem;
+  color: #000;
 }
 
 .contact-button:hover {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
   color: hsl(212, 27%, 19%);
 }
 
