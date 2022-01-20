@@ -3,12 +3,12 @@ body {
   padding: 0;
 }
 
-.services {
+.about {
   display: flex;
   height: 600px;
 }
 
-.services-container {
+.about-container {
   flex: 1;
   background-color: #fffbf8;
   display: flex;
@@ -24,14 +24,14 @@ body {
   padding: 18% 22%;
 }
 
-.service-title {
+.about-title {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 2.5rem;
   color: hsl(212, 27%, 19%);
 }
 
-.service-body {
+.about-body {
   color: hsl(232, 10%, 55%);
   padding: 2rem 0;
   line-height: 1.7rem;
@@ -117,4 +117,56 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Service */
+
+.graphics-section {
+  background: url("../../assets/images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.photography-section {
+  background: url("../../assets/images/desktop/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.section-holder {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.image-header {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+
+.image-body {
+  line-height: 1.5rem;
+}
+
+.text-cyan-1 {
+  color: hsl(167, 40%, 24%);
+}
+
+.text-dark-blue {
+  color: hsl(198, 62%, 26%);
 }
