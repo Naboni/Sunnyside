@@ -67,3 +67,33 @@
   color: hsl(232, 10%, 55%);
   font-size: 0.8rem;
 }
+
+@media (max-width: 767.89px) {
+  .testimonials-section {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .testimonials-inner-wrap {
+    display: block;
+  }
+
+  .testimonials {
+    padding: 4rem 0rem;
+  }
+
+  .testimonials-title {
+    font-size: 1rem;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 0.3rem;
+  }
+
+  .testimonials-section {
+    width: 70%;
+  }
+
+  .user-testimonial {
+    padding: 2rem 0rem;
+  }
+}
